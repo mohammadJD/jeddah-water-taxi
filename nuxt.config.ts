@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 import svgLoader from 'vite-svg-loader';
 
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: '2025-02-04',
   devtools: { enabled: false },
   ssr: true, // default is true
   modules: ['@pinia/nuxt','@nuxtjs/i18n'],
@@ -22,26 +22,6 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.ts',
     strategy: 'prefix_except_default',
   },
-  // i18n: {
-  //   locales: [
-  //     { code: 'en', name: 'English', iso: 'en-US', file: 'en.json' },
-  //     { code: 'ar', name: 'Arabic', iso: 'ar-SA', file: 'ar.json' },
-  //   ],
-  //   defaultLocale: 'en',
-  //   lazy: true,
-  //   langDir: 'locales/',
-  //   strategy: 'prefix_except_default',
-  // //   vueI18n: {
-  // //     legacy: false,
-  // //     locale: 'en',
-  // //     fallbackLocale: 'en',
-  // //   },
-  //   detectBrowserLanguage: {
-  //     useCookie: true,
-  //     cookieName: 'i18n_lang',
-  //     redirectOn: 'root' // Recommended: 'fallback'
-  //   },
-  // },
   vite: {
     plugins: [
       tailwindcss(),

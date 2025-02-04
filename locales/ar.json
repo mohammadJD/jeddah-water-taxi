@@ -1,4 +1,25 @@
 {
   "Jeddah Transport is a trademark of": "جدة للنقل هي علامة تجارية مسجلة",
-  "Operated by": "يتم تشغيلها بواسطة"
+  "Operated by": "يتم تشغيلها بواسطة",
+  "Your Specialist Maritime Transportation Company": "شركتك المتخصصة في النقل البحري",
+  "New User?": "مستخدم جديد؟",
+  "Sign Up": "تسجيل",
+  "Already Have An Account?": "هل لديك حساب بالفعل؟",
+  "Log In": "تسجيل الدخول",
+  "copyright": "جميع الحقوق محفوظة © 2025 لشركة مترو جدة",
+  "Forgot your password?": "نسيت كلمة السر؟",
+  "Book Your Trip Now": "احجز رحلتك الآن",
+  "email": "إيميل",
+  "validators": {
+    "required": "هذا الحقل مطلوب",
+    "is-email": "أدخل بريد الكتروني صحيح",
+    "min-length": "على الأقل {0} محرف",
+    "max-length": "على الأكثر {0} محرف",
+    "min-value": "يجب أن تكون القيمة أكبر او تساوي {0}",
+    "max-value": "يجب أن تكون القيمة أصغر أو تساوي {0}",
+    "min-number-of-items": "يجب أن يكون عدد العناصر أكبر أو يساوي {0}",
+    "max-number-of-items": "يجب أن يكون عدد العناصر أصغر أو يساوي {0}",
+    "is-phone-number": "أدخل رقم هاتف صحيح",
+    "is-phone-number-with-country": "أدخل رقم هاتف صحيح مع رمز الدولة"
+  }
 }

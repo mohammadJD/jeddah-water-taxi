@@ -1,17 +1,17 @@
 <template>
    <div v-if="visible" class="splash-screen">
       <template v-if="!secScreenVisible">
-         <div class="mt-[10vh]">
+         <div class="max-w-[375px] m-auto mt-[10vh]">
             <Spinner size="80px" class=" m-auto">
                <img src="@/assets/img/splash-loader.webp" class="absolute top-[0] left-[50%] w-[60px]"
                     style="transform: translate(-39%, 17px)"/>
             </Spinner>
          </div>
-         <img src="@/assets/img/splash-bg.webp"/>
+         <img class="max-w-[375px] m-auto" src="@/assets/img/splash-bg.webp"/>
       </template>
 
       <template v-else>
-         <div class="flex flex-col items-center justify-between w-full h-full pt-5 px-4">
+         <div class="max-w-[375px] m-auto flex flex-col items-center justify-between w-full h-full pt-5 px-4 ">
             <img src="@/assets/img/jeddah-transport.webp"/>
             <img src="@/assets/img/mari-time.webp"/>
             <div class="bg-gray-500 w-full h-[1px]"/>
@@ -42,10 +42,10 @@
       setTimeout(() => {
          secScreenVisible.value = true;
          setTimeout(() => {
-            // secScreenVisible.value = false;
-            // visible.value = false;
-         }, 1000000);
-      }, 1000); // Splash screen duration (2 seconds)
+            secScreenVisible.value = false;
+            visible.value = false;
+         }, 10);
+      }, 10); // Splash screen duration (2 seconds)
    })
 </script>
 

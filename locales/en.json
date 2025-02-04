@@ -1,4 +1,25 @@
 {
   "Jeddah Transport is a trademark of": "Jeddah Transport is a trademark of",
-  "Operated by": "Jeddah Transport is a trademark of"
+  "Operated by": "Jeddah Transport is a trademark of",
+  "Your Specialist Maritime Transportation Company": "Your Specialist Maritime Transportation Company",
+  "New User?": "New User?",
+  "Sign Up": "Sign Up",
+  "Already Have An Account?": "Already Have An Account?",
+  "Log In": "Log In",
+  "copyright": "Copyright © 2025 Metro Jeddah Company",
+  "Forgot your password?": "Forgot your password?",
+  "Book Your Trip Now": "Book Your Trip Now",
+  "email": "Email",
+  "validators": {
+    "required": "This field is required",
+    "is-email": "Enter valid email",
+    "min-length": "At least {0} characters",
+    "max-length": "At most {0} characters",
+    "min-value": "Must be greater than or equal to {0}",
+    "max-value": "Must be less than or equal to {0}",
+    "min-number-of-items": "Number of items must be greater than or equal to {0}",
+    "max-number-of-items": "Number of items must be less than or equal to to {0}",
+    "is-phone-number": "Enter valid phone number",
+    "is-phone-number-with-country": "Enter valid phone number with country code"
+  }
 }
