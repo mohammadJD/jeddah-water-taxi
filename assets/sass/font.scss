@@ -1,0 +1,75 @@
+/* Define light font */
+@font-face {
+  font-display: soleto;
+  font-family: soleto;
+  //font-weight: 300;
+  src: url("~/assets/fonts/Soleto_Trial_Rg.ttf") format("truetype");
+}
+
+/* Define regular font */
+//@font-face {
+//  font-display: swap;
+//  font-family: main-font;
+//  font-weight: normal;
+//  src: url("./font/OUTFIT-REGULAR.TTF") format("truetype");
+//}
+//
+///* Define bold font */
+//@font-face {
+//  font-display: swap;
+//  font-family: main-font;
+//  font-weight: bold;
+//  font-weight: 500;
+//  src: url("./font/OUTFIT-SEMIBOLD.TTF") format("truetype");
+//}
+
+/* Define bold font */
+//@font-face {
+//  font-display: swap;
+//  font-family: main-font;
+//  font-weight: bold;
+//  font-weight: 600;
+//  src: url("./font/OUTFIT-BOLD.TTF") format("truetype");
+//}
+//
+body , h1, h2, h3, h4, h5, h6, .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6, .text-button, .text-overline, .v-card-title{
+  font-family: soleto;
+}
+  
+/************* Arabic ***************/
+html[dir='rtl']{    
+  //@font-face {
+  //  font-display: swap;
+  //  font-family: ar-font;
+  //  font-weight: 400;
+  //  src: url("./font/ar/IBMPlexSansArabic-Regular.ttf") format("truetype");
+  //}
+  //
+  ///* Define Medium font */
+  //@font-face {
+  //  font-display: swap;
+  //  font-family: ar-font;
+  //  font-weight: 500;
+  //  src: url("./font/ar/IBMPlexSansArabic-Medium.ttf") format("truetype");
+  //}
+  //
+  ///* Define bold font */
+  //@font-face {
+  //  font-display: swap;
+  //  font-family: ar-font;
+  //  font-weight: 600;
+  //  src: url("./font/ar/IBMPlexSansArabic-Bold.ttf") format("truetype");
+  //}
+  //
+  ///* Define Semibold font */
+  //@font-face {
+  //  font-display: swap;
+  //  font-family: ar-font;
+  //  font-weight: 700;
+  //  src: url("./font/ar/IBMPlexSansArabic-SemiBold.ttf") format("truetype");
+  //}
+  //
+  //body,h1, h2, h3, h4, h5, h6, .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6, .text-button, .text-overline, .v-card-title,.leaflet-container,.text-body-1{
+  //  font-family: ar-font !important;
+  //}
+}
