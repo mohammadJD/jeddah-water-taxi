@@ -29,7 +29,7 @@ const props = defineProps({
 	box-sizing: border-box;
 	display: block;
 	position: absolute;
-	margin: 8px;
+	/*margin: 8px;*/
 	border: 2px solid currentColor;
 	border-radius: 50%;
 	animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;

@@ -7,16 +7,17 @@
 
       <div class="">
          <img src="@/assets/img/welcome/maritime.png" class="max-w-[45px] m-auto"/>
-         <Form @submit="submit()">
-            <FormInput :label="$t('email')" v-model="form.email" :rules="['required']" />
+         <Form @submit="submit()" class="mt-8">
+            <FormInput :placeholder="$t('email')" v-model="form.email" :rules="['required', 'isEmail']" />
+            <FormInput type="password" :placeholder="$t('Password')" v-model="form.password" :rules="['required']" />
 
             <FormButton
                :label="$t('Book Your Trip Now')"
                type="submit"
-               size="lg"
                :loading="loading"
+               class="w-full"
+               endIcon="arrow-narrow-right"
             />
-            <button type="submit">submit</button>
 
          </Form>
 
@@ -43,7 +44,7 @@
       password: ''
    });
 
-   const loading = ref(true);
+   const loading = ref(false);
 
    const submit = async () => {
       console.log("submitted",form.value);

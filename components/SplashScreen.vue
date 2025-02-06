@@ -4,7 +4,7 @@
          <div class="max-w-[375px] m-auto mt-[10vh]">
             <Spinner size="80px" class=" m-auto">
                <img src="@/assets/img/splash-loader.webp" class="absolute top-[0] left-[50%] w-[60px]"
-                    style="transform: translate(-39%, 17px)"/>
+                    style="transform: translate(-50%, 11px);"/>
             </Spinner>
          </div>
          <img class="max-w-[375px] m-auto" src="@/assets/img/splash-bg.webp"/>

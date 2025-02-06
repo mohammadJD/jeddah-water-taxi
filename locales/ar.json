@@ -1,15 +1,4 @@
 {
-  "Jeddah Transport is a trademark of": "جدة للنقل هي علامة تجارية مسجلة",
-  "Operated by": "يتم تشغيلها بواسطة",
-  "Your Specialist Maritime Transportation Company": "شركتك المتخصصة في النقل البحري",
-  "New User?": "مستخدم جديد؟",
-  "Sign Up": "تسجيل",
-  "Already Have An Account?": "هل لديك حساب بالفعل؟",
-  "Log In": "تسجيل الدخول",
-  "copyright": "جميع الحقوق محفوظة © 2025 لشركة مترو جدة",
-  "Forgot your password?": "نسيت كلمة السر؟",
-  "Book Your Trip Now": "احجز رحلتك الآن",
-  "email": "إيميل",
   "validators": {
     "required": "هذا الحقل مطلوب",
     "is-email": "أدخل بريد الكتروني صحيح",
@@ -21,5 +10,24 @@
     "max-number-of-items": "يجب أن يكون عدد العناصر أصغر أو يساوي {0}",
     "is-phone-number": "أدخل رقم هاتف صحيح",
     "is-phone-number-with-country": "أدخل رقم هاتف صحيح مع رمز الدولة"
-  }
+  },
+  "Jeddah Transport is a trademark of": "جدة للنقل هي علامة تجارية مسجلة",
+  "Operated by": "يتم تشغيلها بواسطة",
+  "Your Specialist Maritime Transportation Company": "شركتك المتخصصة في النقل البحري",
+  "New User?": "مستخدم جديد؟",
+  "Sign Up": "تسجيل",
+  "Already Have An Account?": "هل لديك حساب بالفعل؟",
+  "Log In": "تسجيل الدخول",
+  "copyright": "جميع الحقوق محفوظة © 2025 لشركة مترو جدة",
+  "Forgot your password?": "نسيت كلمة السر؟",
+  "Book Your Trip Now": "احجز رحلتك الآن",
+  "email": "إيميل",
+  "Email address": "عنوان البريد الإلكتروني",
+  "Password": "كلمة السر",
+  "Password Confirmation": "تاكيد كلمة السر",
+  "First name": "الاسم الأول",
+  "Last name": "الاسم الأخير",
+  "Phone number": "رقم الموبايل",
+  "Password must match": "يجب التطابق مع كلمة السر",
+  "Agree to Terms and Conditions": "الموافقة على الشروط والأحكام"
 }

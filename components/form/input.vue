@@ -7,11 +7,11 @@
 			</div>
 		</slot>
 		<div
-			class="input-wrapper flex w-full items-stretch rounded-lg border transition-all"
+			class="input-wrapper flex w-full items-stretch rounded-md border transition-all"
 			:class="computedClasses"
 		>
 			<div
-				class="flex max-w-full flex-1 items-center gap-2 rounded-lg bg-white"
+				class="flex max-w-full flex-1 items-center gap-2 rounded-md bg-white"
 				:class="sizeClasses[props.size]"
 			>
 				<slot name="start-icon"></slot>
@@ -96,7 +96,7 @@ const props = defineProps({
 	},
 	size: {
 		type: String,
-		default: 'md',
+		default: 'lg',
 	},
 	disabled: {
 		type: Boolean,
@@ -174,6 +174,7 @@ const sizeClasses = {
 	xs: 'px-2 py-0.5',
 	sm: 'px-3 py-2',
 	md: 'px-3.5 py-2.5',
+	lg: 'px-4.5 py-3.5',
 };
 const computedClasses = computed(() => {
 	const res = [];
